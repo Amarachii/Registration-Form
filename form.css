@@ -1,0 +1,41 @@
+body{
+    font-family: helvetica;
+    margin: 0;
+    font-weight: bold;
+}
+
+main{
+    padding: 0px 15px;
+}
+
+h1{
+    background-color: rgb(67, 67, 185);
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 10px;
+    color: white;
+}
+
+hr{
+    width: 100%;
+    border: 2px dotted rgb(63, 54, 54);
+}
+
+footer{
+    background-color: rgb(67, 67, 185);
+    color: white;
+    padding: 10px 10px;
+}
+
+button{
+    background-color:  rgb(12, 12, 17);
+    color: white;
+    border-radius: 15%;
+}
+
+@media (max-width: 765px){
+    h1{
+        font-size: 20px;
+    }
+}
